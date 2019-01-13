@@ -1,0 +1,13 @@
+git init
+
+heroku login
+
+heroku create model-name
+
+git add .
+
+git commit -m "First commit!"
+
+heroku git:remote -a emission-model
+
+git push heroku master
